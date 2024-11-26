@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PUBLISHING</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publishing</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <header>
+    <header class="header">
+      <!-- Navigation Bar -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/img/LOGO NAME.png" alt="Logo" class="logo" />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -32,10 +32,10 @@
             data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -52,7 +52,7 @@
               <input
                 class="form-control me-2"
                 type="search"
-                placeholder="Search"
+                placeholder="find a book or author..."
                 aria-label="Search"
               />
               <button class="btn btn-outline-success" type="submit">
@@ -63,20 +63,120 @@
         </div>
       </nav>
     </header>
+
+
+
+
+<main>
+      <section class="featured text-center py-5">
+        <div class="container">
+          <h1 class="mb-4">FEATURED</h1>
+        </div>
+      </section>
+
+      <!-- Slideshow Container -->
+      <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="mySlides fade">
+          <div class="slide-content">
+            <img src="./assets/img/WarOnTruth_final_72dpi.jpg" alt="Slide 1">
+            <div class="caption">
+              <h3 class="slide-title">War on Truth</h3>
+              <p class="slide-description">A gripping exploration of misinformation and its consequences.</p>
+              <p class="slide-author">Author: John Doe</p>
+              <button class="shop-now">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+          <div class="slide-content">
+            <img src="./assets/img/taylor featured.jpg" alt="Slide 2">
+            <div class="caption">
+              <h3 class="slide-title">Taylor Swift by the Book</h3>
+              <p class="slide-description">The Literature Behind the Lyrics, from Fairy Tales to Tortured Poets</p>
+              <p class="slide-author">By Rachel Feder, Tiffany Tatreau</p>
+              <button class="shop-now">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+          <div class="slide-content">
+            <img src="./assets/img/MissP_NOWmovieburst-1.jpg" alt="Slide 3">
+            <div class="caption">
+              <h3 class="slide-title">Miss P's Adventure</h3>
+              <p class="slide-description">Follow the whimsical journey of Miss P in a world of wonder.</p>
+              <p class="slide-author">Author: Alex Green</p>
+              <button class="shop-now">Shop Now</button>
+            </div>
+          </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+
+      <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <section class="discover py-5">
+        <div class="container text-center">
+          <h2 class="mb-4">DISCOVER</h2>
+        </div>
+
+        <!-- White container for images -->
+        <div class="white-container py-5">
+          <div class="container">
+            <div class="row">
+              <!-- Image grid -->
+              <div class="col-md-3 col-6 mb-4">
+                <div class="image-container">
+                  <img src="./assets/img/CultFollowing_final_300dpi-1-672x1024.jpg" alt="Image 1" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                <div class="image-container">
+                  <img src="./assets/img/SecretsOfUnderhill_final_300dpi-719x1024.jpg" alt="Image 2" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                <div class="image-container">
+                  <img src="./assets/img/TinyPepTalks_cover_final-717x1024.jpg" alt="Image 3" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-4">
+                <div class="image-container">
+                  <img src="./assets/img/WakeUpandOpenYourEyes_final_300dpi-683x1024.jpg" alt="Image 4" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</main>
+
+    <footer class="bg-custom-footer text-light py-4">
+      <div class="container text-center">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/img/LOGO FLAT.png" alt="Logo" class="logo" />
+        </a>
+        <p>&copy; 2024 Quirk Books. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Custom JS -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
