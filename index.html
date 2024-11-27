@@ -15,6 +15,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    
+    <style>
+      /* Custom CSS for the hr in the header */
+      .hr-header {
+        border: none; /* Removes the default border style */
+        border-top: 3px solid #0CA98D; /* Adds a solid color line at the top */
+        margin: 0; /* Removes any default margin */
+        padding: 0; /* Ensures no padding */
+      }
+    </style>
   </head>
 
   <body>
@@ -32,7 +42,8 @@
             data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -62,12 +73,10 @@
           </div>
         </div>
       </nav>
+      <div class="sticky-line"></div>
     </header>
 
-
-
-
-<main>
+    <main>
       <section class="featured text-center py-5">
         <div class="container">
           <h1 class="mb-4">FEATURED</h1>
@@ -128,6 +137,7 @@
       <section class="discover py-5">
         <div class="container text-center">
           <h2 class="mb-4">DISCOVER</h2>
+          <p>Explore our must-read books and newest blog posts.</p>
         </div>
 
         <!-- White container for images -->
@@ -159,7 +169,43 @@
           </div>
         </div>
       </section>
-</main>
+
+      <!-- Call to Action -->
+      <section class="cta">
+        <div class="container">
+          <div class="row d-flex align-items-center">
+            <!-- First Column -->
+            <div class="col-md-6">
+              <div class="left-content">
+                <img src="./assets/img/BOOK.webp" alt="Quirk Cat" class="img-fluid" />
+                <div>
+                  <h3>Find the Perfect Book</h3>
+                  <p>
+                    Quickly search our complete catalog to find the book that was made
+                    for you.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-md-6 text-center">
+              <h3>Get a FREE ebook by joining our mailing list today!</h3>
+              <p>
+                Plus, receive recommendations and exclusive offers on all of your
+                favorite books and authors from Quirk Books.
+              </p>
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Your email address" aria-label="Your email address"/>
+                <button class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
 
     <footer class="bg-custom-footer text-light py-4">
       <div class="container text-center">
