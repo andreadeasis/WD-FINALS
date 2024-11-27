@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: "Josefin Sans", sans-serif;
-  background: linear-gradient(to bottom, #4f504d 1%, #6f6b6b 7%, #1A1615);
+  background: linear-gradient(to bottom, #4f504d 1%, #d4d0d0 10%, #2c2b2b);
 }
 
 .navbar-brand .logo {
@@ -47,12 +47,13 @@ body {
 
 .featured h1 {
   font-size: 5rem;
-  color: #FBFBFB;
+  color: #0CA98D;
+  text-shadow:  (2px 2px 5px#FBFBFB);
   font-weight: bold;
   margin: 0 0 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), 0 0 25px rgba(0, 0, 0, 0.4);
+
 }
 
 /* Slideshow Container */
@@ -193,7 +194,7 @@ body {
 }
 
 .dot:hover {
-  background-color: #0ca98d;
+  background-color: #303433;
 }
 
 /* Fade Animation */
@@ -214,15 +215,19 @@ body {
 /* Discover Section */
 .discover {
   margin-top: 5rem;
-  background-image: url(https://www.quirkbooks.com/wp-content/uploads/2022/10/Website-Banners-02.jpg);
+  background-image: url(../img/paper.png); /* Your background image */
+  background-size: cover; /* Make the image cover the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 30rem; /* Set the height of the container */
 }
 
+
 .discover h2 {
-  color: #fff;
+  color: #0CA98D;
   font-size: 2.5rem;
   font-weight: bold;
   text-align: left;
-  text-shadow: 3px 3px 10px #131010, 0 0 25px #131010;
   margin-bottom: 1rem;
 }
 
@@ -253,7 +258,6 @@ body {
 
 /* Add a background color under the images */
 .white-container {
-  background-color: #fff;
   padding: 1rem;
   height: 20rem;
   border-radius: 10px;
@@ -278,7 +282,7 @@ body {
   justify-content: center;
   background-color: #ffffff;
   border-radius: 20px;
-  margin: 0 10rem 2rem;
+  margin: 10rem 10rem 10rem;
 }
 
 .cta .left-content {
@@ -294,15 +298,23 @@ body {
 
 .cta h3 {
   font-size: 1.5rem;
+  color: #284076;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
 .cta p {
-  font-size: 0.9rem; /
+  font-size: 0.9rem;
+  color: #7A7274;
 }
 
 .cta {
+  color: #7A7274;
   padding: 3%; 
+}
+
+.cta btn-primary {
+  color: #0CA98D;
 }
 
 
