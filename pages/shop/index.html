@@ -3,73 +3,411 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Contact</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"/>
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Navigation Bar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="../../assets/img/LOGO NAME.png" alt="Logo" class="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../shop/index.html"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../About/">About</a
+                >
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="find a book or author..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="sticky-line"></div>
+    </header>
 
 
-    <body>
-      <header class="header">
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="./assets/img/LOGO NAME.png" alt="Logo" class="logo" />
-            </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02"
-              aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/shop/index.html">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./pages/About/index.html">About</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="find a book or author..."
-                  aria-label="Search"
-                />
-                <button class="btn btn-outline-success" type="submit">
-                  Search
-                </button>
-              </form>
+    <div class="banner-container">
+      <img class="banner-top" src="./assets/img/Website-Banners-02.jpg" alt="Banner" />
+      <img class="overlay-image" src="./assets/img/largebanner.png" alt="Overlay" href = "./index.html"/>
+    </div>
+
+    <hr class="hr-divider" />
+
+
+
+    <!-- Credit to https://startbootstrap.com/template/shop-homepage -->
+
+
+    <!-- Section-->
+    <section class="py-5">
+      <div class="container px-4 px-lg-5 mt-5">
+        <div
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        >
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+              class="badge bg-dark text-white position-absolute"
+              style="top: 0.5rem; right: 0.5rem">
+              Popular
+            </div>
+            <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/taylor featured.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Taylor Swift by the Book</h5>
+                  <!-- Product price-->
+                  $13.99 
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683694740?tag=randohouseinc7913-20">Buy Now</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-        <div class="sticky-line"></div>
-      </header>
+          <div class="col mb-5">
+            <div class="card h-100">
 
-      <footer class="bg-custom-footer text-light py-4">
-        <div class="container text-center">
-          <a class="navbar-brand" href="#">
-            <img src="./assets/img/LOGO FLAT.png" alt="Logo" class="logo" />
-          </a>
-          <p>&copy; 2024 Quirk Books. All rights reserved.</p>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/SecretsOfUnderhill_final_300dpi-719x1024.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">The Secrets of Underhill</h5>
+
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$17.99</span
+                  >
+                  $12.99
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683693884?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/WarOnTruth_final_72dpi.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">How to Win the War on Truth</h5>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$17.39</span
+                  >
+                  $12.99
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683693086?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/WakeUpandOpenYourEyes_final_300dpi-683x1024.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Wake Up and Open Your Eyes</h5>
+                  <!-- Product price-->
+                  $24.99
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683693957?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/MissP_NOWmovieburst-1.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Miss Peregrine’s Home for Peculiar Children</h5>
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$14.99</span
+                  >
+                  $8.24
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1594746036?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/TinyPepTalks_cover_final-717x1024.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Tiny Pep Talks</h5>
+                  <!-- Product price-->
+                  $14.99
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683694015?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Sale badge-->
+              <div
+                class="badge bg-dark text-white position-absolute"
+                style="top: 0.5rem; right: 0.5rem"
+              >
+                Sale
+              </div>
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/such.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name-->
+                  <h5 class="fw-bolder">Such a Bad Influence</h5>
+
+                  <!-- Product price-->
+                  <span class="text-muted text-decoration-line-through"
+                    >$24.99</span
+                  >
+                  $16.99
+                </div>
+              </div>
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683694015?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5">
+            <div class="card h-100">
+              <!-- Product image-->
+              <img
+                class="card-img-top"
+                src="./assets/img/CultFollowing_final_300dpi-1-672x1024.jpg"
+                alt="..."
+              />
+              <!-- Product details-->
+              <div
+              class="badge bg-dark text-white position-absolute"
+              style="top: 0.5rem; right: 0.5rem"
+            >
+              Sale
+            </div>
+              <div class="card-body p-4">
+                <div class="text-center">
+                  <!-- Product name -->
+                  <h5 class="fw-bolder">Cult Following</h5>
+                  <!-- Product price -->
+                  <span class="text-muted text-decoration-line-through">$24.99</span>
+                  $17.39
+                </div>
+              </div>
+
+              <!-- Product actions-->
+              <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                  <a class="btn btn-outline-dark mt-auto" href="https://www.amazon.com/gp/product/1683694120?tag=randohouseinc7913-20"
+                    >Buy Now</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Contact</h3>
+              <ul>
+                <li><a href="#">marketing@quirkbooks.com</a></li>
+                <li><a href="#">nicole@quirkbooks.com</a></li>
+                <li><a href="#">P: 215.627.3581, ext. 217</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Quirk Books</h3>
+              <p>
+                215 Church Street Philadelphia, PA 19106<br />
+                <br />
+                T: 215-627-3581<br />
+                F: 215-627-5220
+              </p>
+            </div>
+            <div class="col item social">
+              <a href="#"><i class="icon ion-social-facebook"></i></a
+              ><a href="#"><i class="icon ion-social-twitter"></i></a
+              ><a href="#"><i class="icon ion-social-snapchat"></i></a
+              ><a href="#"><i class="icon ion-social-instagram"></i></a>
+            </div>
+          </div>
+          <p class="copyright">© 2024 Quirk Books. All rights reserved.</p>
         </div>
       </footer>
-    </body>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
