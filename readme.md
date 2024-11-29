@@ -1,5 +1,4 @@
 <a name="readme-top">
-<a href="https://wakatime.com/badge/user/b16bec80-63c3-4b04-a77f-bc72e050b6dc/project/81f9802f-bffa-416a-8d1b-bf1cbeedcf63"><img src="https://wakatime.com/badge/user/b16bec80-63c3-4b04-a77f-bc72e050b6dc/project/81f9802f-bffa-416a-8d1b-bf1cbeedcf63.svg" alt="wakatime"></a>
 <br/>
 
 <br />
@@ -22,7 +21,7 @@
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=andreadeasis/WD-Publishing)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+<a href="https://wakatime.com/badge/user/b16bec80-63c3-4b04-a77f-bc72e050b6dc/project/81f9802f-bffa-416a-8d1b-bf1cbeedcf63"><img src="https://wakatime.com/badge/user/b16bec80-63c3-4b04-a77f-bc72e050b6dc/project/81f9802f-bffa-416a-8d1b-bf1cbeedcf63.svg" alt="wakatime"></a>
 
 ---
 
@@ -32,9 +31,9 @@
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ol> H
     <li>
-      <a href="#overview">Overview</a>
+      <a href="#overview">Home</a>
       <ol>
         <li>
           <a href="#key-components">Key Components</a>
@@ -58,27 +57,31 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+The project involves creating a fully functional, multi-page website modeled after Quirk Books' official site. It includes key pages: Home, Shop, About, and Contact. The layout and styling aim to replicate the aesthetic and user experience of the original website.
+
+The Header and Footer utilized Bootstrao
+
+The primary goal is to demonstrate familiarize front-end web development using HTML, CSS, JavaScript, and Bootstrap. This project is able to showcase: Translate an existing design into functional code, Use responsive design techniques, Implement interactivity and dynamic content.
+
+
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Header & Footer
+- Home Page
+- Shop Page
+- About Page
+- Contact Page
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -118,5 +121,5 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
+|NavBar|Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar.|https://getbootstrap.com/docs/5.3/components/navbar/#nav|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
