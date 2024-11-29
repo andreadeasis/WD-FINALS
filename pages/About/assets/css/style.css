@@ -30,7 +30,6 @@ body {
   z-index: 5;
 }
 
-/* Active state within the navbar */
 .navbar .nav-link.active {
   color: #7A7274;
   border-radius: 5px;
