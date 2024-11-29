@@ -64,7 +64,7 @@ The project involves creating a fully functional, multi-page website modeled aft
 
 The Header and Footer utilized Bootstrap for a responsive design. It is made to be simple as the original was. The homepage features a slide for the featured books, which is up to 3 and automatically changes every few seconds. For the shop, it features a banner of the Christmas Sale and the shop homepage from the Bootstrap. The about section features only the banner for Quirk Books and the image for timeline. Lastly, the Contact page has all the information you can use to contact Quirk Books. It has icons from Awesome Fonts which can be hovered over and leads to Quirk Book's social media pages.
 
-The primary goal is to demonstrate familiarize front-end web development using HTML, CSS, JavaScript, and Bootstrap. This project is able to showcase: Translate an existing design into functional code, Use responsive design techniques, Implement interactivity and dynamic content.
+The primary goal is to demonstrate familiarize front-end web development using HTML, CSS, JavaScript, and Bootstrap. This project is able to showcase: Translate an existing design into functional code and use responsive design techniques.
 
 
 
