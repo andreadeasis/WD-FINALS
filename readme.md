@@ -121,5 +121,9 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|NavBar|Documentation and examples for Bootstrap’s powerful, responsive navigation header, the navbar.|https://getbootstrap.com/docs/5.3/components/navbar/#nav|
+|-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Start Bootstrap: Shop Homepage | Used for the layout and design of the Shop page. | [https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage) |
+| Google Fonts: Josefin Sans | Font used for styling text across the website. | [https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap](https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap) |
+| Bootstrap Navbar Documentation | Used to create a responsive navigation bar for the website. | [https://getbootstrap.com/docs/5.3/components/navbar/#nav](https://getbootstrap.com/docs/5.3/components/navbar/#nav) |
+| Epic Bootstrap: Footer Dark | Used to design the footer section of the website. | [https://epicbootstrap.com/snippets/footer-dark](https://epicbootstrap.com/snippets/footer-dark) |
