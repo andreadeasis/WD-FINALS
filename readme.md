@@ -29,7 +29,7 @@
 <br />
 
 <!-- TODO: If you want to add more layers for your readme -->
-<details>
+<details> 
   <summary>Table of Contents</summary>
   <ol> 
     <li>
