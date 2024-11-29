@@ -8,11 +8,11 @@
     <img src="./assets/img/logobig.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">CCS0027 Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+   Recreation of Quirk Book's Website.
 </div>
 
 <br />
@@ -60,9 +60,9 @@
 Description of the project in details.
 
 
-The project involves creating a fully functional, multi-page website modeled after Quirk Books' official site. It includes key pages: Home, Shop, About, and Contact. The layout and styling aim to replicate the aesthetic and user experience of the original website.
+The project involves creating a fully functional, multi-page website modeled after Quirk Books' official site. It includes key pages: Home, Shop, About, and Contact. The layout and styling aim to replicate the aesthetic and user experience of the original website. Responsive up until to an Ipad Pro (1024 x 1366).
 
-The Header and Footer utilized Bootstrao
+The Header and Footer utilized Bootstrap for a responsive design. It is made to be simple as the original was. The homepage features a slide for the featured books, which is up to 3 and automatically changes every few seconds. For the shop, it features a banner of the Christmas Sale and the shop homepage from the Bootstrap. The about section features only the banner for Quirk Books and the image for timeline. Lastly, the Contact page has all the information you can use to contact Quirk Books. It has icons from Awesome Fonts which can be hovered over and leads to Quirk Book's social media pages.
 
 The primary goal is to demonstrate familiarize front-end web development using HTML, CSS, JavaScript, and Bootstrap. This project is able to showcase: Translate an existing design into functional code, Use responsive design techniques, Implement interactivity and dynamic content.
 
@@ -122,8 +122,10 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Start Bootstrap: Shop Homepage | Used for the layout and design of the Shop page. | [https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage) |
+| Shop Homepage | Used for the layout and design of the Shop page. | [https://startbootstrap.com/template/shop-homepage](https://startbootstrap.com/template/shop-homepage) |
 | Google Fonts: Josefin Sans | Font used for styling text across the website. | [https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap](https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap) |
-| Bootstrap Navbar Documentation | Used to create a responsive navigation bar for the website. | [https://getbootstrap.com/docs/5.3/components/navbar/#nav](https://getbootstrap.com/docs/5.3/components/navbar/#nav) |
+| Bootstrap Navbar | Used to create a responsive navigation bar for the website. | [https://getbootstrap.com/docs/5.3/components/navbar/#nav](https://getbootstrap.com/docs/5.3/components/navbar/#nav) |
 | Epic Bootstrap: Footer Dark | Used to design the footer section of the website. | [https://epicbootstrap.com/snippets/footer-dark](https://epicbootstrap.com/snippets/footer-dark) |
+| Pinterest Icon | Link to Pinterest icon for social sharing. | [Pinterest](https://fontawesome.com/icons/pinterest?f=brands&s=solid) |
+| Facebook Icon  | Link to Facebook icon for social sharing. | [Facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid) |
+| Instagram Icon | Link to Instagram icon for social sharing. | [Instagram](https://fontawesome.com/icons/instagram?f=brands&s=solid) |
