@@ -1,12 +1,13 @@
+@charset "UTF-8";
+
 /* General Styles */
 body {
   font-family: "Josefin Sans", sans-serif;
   background-image: url(../img/background.jpeg);
-  background-size: cover; /* Ensures the background covers the entire viewport without stretching */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-position: center; /* Centers the image within the viewport */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
 
 .navbar-brand .logo {
   height: 5rem;
@@ -21,7 +22,6 @@ body {
   padding-bottom: 10px;
 }
 
-/* Sticky line at the bottom of the header */
 .sticky-line {
   position: sticky;
   top: 0;
@@ -53,12 +53,11 @@ body {
 .featured h1 {
   font-size: 5rem;
   color: #0CA98D;
-  text-shadow:  (2px 2px 5px#FBFBFB);
+  text-shadow: (2px 2px 5px #FBFBFB);
   font-weight: bold;
   margin: 0 0 1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-
 }
 
 /* Slideshow Container */
@@ -89,7 +88,6 @@ body {
   margin: 0 auto;
 }
 
-/* Caption Styling */
 .caption {
   text-align: left;
   padding: 5%;
@@ -100,7 +98,6 @@ body {
   border-radius: 10px;
   margin-bottom: 2rem;
   margin-top: 2rem;
-
 }
 
 .caption h3 {
@@ -222,41 +219,28 @@ body {
 }
 
 /* Discover Section */
-/* Discover Section */
 .discover {
   margin-top: 5rem;
   background-image: url(https://www.quirkbooks.com/wp-content/uploads/2022/10/Website-Banners-01.jpg);
-  background-size: cover; /* Keep the background proportional */
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 30rem; /* Fixed height */
+  height: 30rem;
 }
 
-/* Image in Discover Section */
 .discover img {
-  width: 70%; /* Adjust size proportionally */
-  max-width: 600px; /* Add a maximum size for large screens */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Ensure centered alignment */
-  margin: 0 auto; /* Horizontally center the image */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Keep the hover effect */
-}
-
-/* Media Query for Responsiveness */
-@media (max-width: 768px) {
-  .discover {
-    height: auto; /* Allow the container to adjust its height for small screens */
-  }
-  .discover img {
-    width: 90%; /* Make the image slightly larger for small screens */
-    max-width: none; /* Remove the upper limit on width for smaller screens */
-  }
+  width: 70%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
 .discover h2 {
   color: #fbfbfb;
-  text-shadow: 10px 4px 10px #303433; /* Corrected syntax */
+  text-shadow: 10px 4px 10px #303433;
   font-size: 2.5rem;
   font-weight: bold;
   text-align: left;
@@ -265,7 +249,7 @@ body {
 
 .discover p {
   color: #DEDDDD;
-  text-shadow: 10px 3px 10px #303433; /* Corrected syntax */
+  text-shadow: 10px 3px 10px #303433;
   font-size: 1.25rem;
   text-align: left;
   font-style: italic;
@@ -273,7 +257,17 @@ body {
 }
 
 
-/* Add a background color under the images */
+.discover img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+  padding: 1rem;
+  margin-top: -2rem;
+  border-radius: 10px;
+}
+
 .white-container {
   padding: 1rem;
   height: 20rem;
@@ -281,7 +275,6 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 .image-container {
   padding: 1rem;
@@ -297,8 +290,6 @@ body {
   margin: 4rem auto;
   opacity: 1;
 }
-
-
 
 /* Find Book Section */
 .cta {
@@ -343,7 +334,6 @@ body {
   color: #0CA98D;
 }
 
-
 .input-group input {
   border: 1px solid #ddd;
   padding: 10px;
@@ -358,96 +348,106 @@ body {
 
 /* Footer */
 .footer-dark {
-  padding:50px 0;
-  color:#f0f9ff;
-  background-color:#0CA98D;
+  padding: 50px 0;
+  color: #f0f9ff;
+  background-color: #0CA98D;
 }
 
 .footer-dark h3 {
-  margin-top:0;
-  margin-bottom:12px;
-  font-weight:bold;
-  font-size:16px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .footer-dark ul {
-  padding:0;
-  list-style:none;
-  line-height:1.6;
-  font-size:14px;
-  margin-bottom:0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
 }
 
 .footer-dark ul a {
-  color:inherit;
-  text-decoration:none;
-  opacity:0.6;
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
 }
 
 .footer-dark ul a:hover {
-  opacity:0.8;
+  opacity: 0.8;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .footer-dark .item:not(.social) {
-    text-align:center;
-    padding-bottom:20px;
+    text-align: center;
+    padding-bottom: 20px;
   }
 }
 
 .footer-dark .item.text {
-  margin-bottom:36px;
+  margin-bottom: 36px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .footer-dark .item.text {
-    margin-bottom:0;
+    margin-bottom: 0;
   }
 }
 
 .footer-dark .item.text p {
-  opacity:0.6;
-  margin-bottom:0;
+  opacity: 0.6;
+  margin-bottom: 0;
 }
 
 .footer-dark .item.social {
-  text-align:center;
+  text-align: center;
 }
 
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .footer-dark .item.social {
-    text-align:center;
-    margin-top:20px;
+    text-align: center;
+    margin-top: 20px;
   }
 }
 
 .footer-dark .item.social > a {
-  font-size:20px;
-  width:36px;
-  height:36px;
-  line-height:36px;
-  display:inline-block;
-  text-align:center;
-  border-radius:50%;
-  box-shadow:0 0 0 1px #0CA98D;
-  margin:0 8px;
-  color:#fff;
-  opacity:0.75;
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #0CA98D;
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
 }
 
 .footer-dark .item.social > a:hover {
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .footer-dark .copyright {
-  text-align:center;
-  padding-top:24px;
-  opacity:0.3;
-  font-size:13px;
-  margin-bottom:0;
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
 }
 
 /* Responsive Design */
+
+@media (max-width: 768px) {
+  .discover {
+    height: auto;
+  }
+  .discover img {
+    width: 90%;
+    max-width: none;
+  }
+}
 @media (max-width: 768px) {
   .cta .row {
     flex-direction: column;
