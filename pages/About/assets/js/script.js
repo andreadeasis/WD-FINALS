@@ -1,10 +1,6 @@
-// script.js
-document.addEventListener('DOMContentLoaded', function() {
-  const navbarToggle = document.querySelector('.navbar-toggler');
-  const navbarCollapse = document.querySelector('.navbar-collapse'); 
-
-  navbarToggle.addEventListener('click', function() {
-
-      navbarCollapse.classList.toggle('show');
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelector('.navbar-toggler').addEventListener('click', function () {
+    let navbarMenu = document.querySelector('#navbarTogglerDemo02');
+    navbarMenu.classList.toggle('collapse');
   });
 });
