@@ -31,7 +31,7 @@
 <!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
-  <ol> H
+  <ol> 
     <li>
       <a href="#overview">Home</a>
       <ol>
@@ -57,7 +57,7 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-Description of the project in details.
+
 
 
 The project involves creating a fully functional, multi-page website modeled after Quirk Books' official site. It includes key pages: Home, Shop, About, and Contact. The layout and styling aim to replicate the aesthetic and user experience of the original website. Responsive up until to an Ipad Pro (1024 x 1366).
